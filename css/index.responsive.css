@@ -1,0 +1,725 @@
+/*! ___________________________________________________________ 350 _______________________________________________________________________________**/
+
+@media (max-width: 1300px) {
+
+    /* _______________________________________________________ global ____________________________________________ */
+    .title p.h1 {
+        font-size: 35px;
+    }
+
+    .title .divider_line::before,
+    .title .divider_line::after {
+        width: 15%;
+        height: 2px;
+    }
+
+    .title .divider_line img {
+        width: 15%;
+    }
+
+    /* _______________________________________________________ Header ____________________________________________ */
+
+    /* ________ Carousel ________  */
+
+    header #HeaderCarousel .carousel-inner .carousel-item .container .button a.btn {
+        padding: 4px 15px;
+        font-size: 13px;
+    }
+
+    /*? ___________________ slide1 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /*? ___________________ slide2 ___________________ */
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .image img {
+        max-width: 130px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2).active .container .row .box:first-child .item .image img {
+        bottom: -25px;
+    }
+
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description p.h1 {
+        font-size: 52px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description .about p {
+        font-size: 12px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description .about p.h3 {
+        font-size: 25px;
+    }
+
+    /*? ___________________ slide3 ___________________ */
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item p.h1 {
+        font-size: 21px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3).active .container .row .box:last-child .item .line {
+        width: 135px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features {
+        width: 100%;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features .row .box .special_item img {
+        max-width: 50px;
+    }
+
+    /*? ____________________ pre & next _____________________ */
+
+    header #HeaderCarousel .carousel-control-prev,
+    header #HeaderCarousel .carousel-control-next {
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    header #HeaderCarousel .carousel-control-prev {
+        right: 90px;
+    }
+
+    header #HeaderCarousel .carousel-control-next {
+        right: 30px;
+    }
+
+    header #HeaderCarousel .carousel-control-prev i,
+    header #HeaderCarousel .carousel-control-next i {
+        font-size: 13px;
+    }
+
+    /* _______________________________________________________ Available ______________________________________________ */
+
+    .available .table-responsive .row .box .item img {
+        max-width: 40px;
+    }
+
+    /* _______________________________________________________ About _____________________________________________ */
+
+    /*? ______________________ part1 ______________________ */
+    #About .container .content .row .part1 .item h4 {
+        font-size: 22px;
+    }
+
+    #About .container .content .row .part1 .item p.h3 {
+        font-size: 17px;
+    }
+
+    #About .container .content .row .part1 .item .line {
+        width: 40%;
+    }
+
+    #About .container .content .row .part1 .item p {
+        font-size: 12px;
+    }
+
+    #About .container .content .row .part1 .item .features .row .item {
+        column-gap: 10px;
+    }
+
+    #About .container .content .row .part1 .item .features .row .item h5 {
+        font-size: 15px;
+    }
+
+    #About .container .content .row .part1 .item .button {
+        margin-bottom: 48px;
+    }
+
+    /*? ______________________ part2 ______________________ */
+    #About .container .content .row .part2 .item {
+        min-height: 200px;
+    }
+
+    #About .container .content .row .part2 .item h3 {
+        width: 30%;
+        text-align: center;
+    }
+
+    /* _______________________________________________________ Testimonials ___________________________________________ */
+
+    #Testimonials .banner .caption .container {
+        padding-block: 3rem;
+    }
+
+    #Testimonials .banner .caption .container h2 {
+        font-size: 20px;
+    }
+
+    #Testimonials .banner .caption .container .line {
+        width: 25%;
+    }
+
+    #Testimonials .banner .caption .container p {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    /* _______________________________________________________ Menu ____________________________________________ */
+
+    /*? __________________________ part1 __________________________ */
+    #Menu .container-fluid .content .row .part1 .nav {
+        margin: auto;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link {
+        padding: 20px 0;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link::before {
+        border-right-color: transparent;
+        border-bottom-color: #fff;
+
+        right: auto;
+        bottom: -20px;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link.active::before {
+        right: auto;
+        bottom: 0;
+    }
+
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item:first-child .nav-link {
+        border-radius: 5px 0px 0 5px;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item:last-child .nav-link {
+        border-radius: 0 5px 5px 0;
+    }
+
+    /* ______________________ */
+
+    #Menu .container-fluid .content .row .part1 .nav-pills .nav-item .nav-link img {
+        max-width: 37px;
+        transition-duration: 0.5s;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link.active img {
+        transform: scale(1.3);
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav-pills .nav-item .nav-link h4 {
+        color: #fff;
+        margin-block: 15px 0;
+        font-size: 16px;
+    }
+
+    /*? __________________________ part2 __________________________ */
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption h4 {
+        font-size: 22px;
+    }
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3 .info_title {
+        font-size: 16px;
+    }
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3:nth-of-type(1) .info_value,
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row:nth-of-type(3) .info_value {
+        font-size: 13px;
+    }
+
+    /* _______________________________________________________ Team ______________________________________________ */
+
+    #Team .container .content .row .box .item {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    /* _______________________________________________________ Footer _____________________________________________  */
+    footer {
+        font-size: 12px;
+    }
+
+}
+
+
+/*! ___________________________________________________________ 450 _______________________________________________________________________________ **/
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    /* _______________________________________________________ Header ____________________________________________ */
+
+    /* ________ Carousel ________  */
+
+    header #HeaderCarousel .carousel-inner .carousel-item .container .button a.btn {
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+
+    /*? ___________________ slide1 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption h1 {
+        font-size: 50px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /*? ___________________ slide2 ___________________ */
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .image img {
+        max-width: 35%;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description p.h1 {
+        font-size: 55px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description .about p {
+        font-size: 14px;
+    }
+
+    /*? ___________________ slide3 ___________________ */
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item p.h1 {
+        font-size: 26px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3).active .container .row .box:last-child .item .line {
+        width: 40%;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item p {
+        font-size: 14px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features .row .box .special_item img {
+        max-width: 40%;
+    }
+
+
+    /* _______________________________________________________ About _____________________________________________ */
+
+    /* ______________________ part1 ______________________ */
+    #About .container .content .row .part1 .item p.h3 {
+        font-size: 20px;
+    }
+
+    #About .container .content .row .part1 .item .features .row .item h5 {
+        font-size: 18px;
+    }
+
+    #About .container .content .row .part1 .item .button {
+        margin-bottom: 48px;
+    }
+
+    /* ______________________ part2 ______________________ */
+    #About .container .content .row .part2 .item {
+        min-height: 250px;
+    }
+
+    #About .container .content .row .part2 .item h3 {
+        width: 100%;
+    }
+}
+
+/*! ___________________________________________________________ 650 _______________________________________________________________________________**/
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    /* _______________________________________________________ global ____________________________________________ */
+    .title .divider_line::before,
+    .title .divider_line::after {
+        width: 50px;
+    }
+
+    /* _______________________________________________________ Header ____________________________________________ */
+
+    /* ________ Carousel ________  */
+
+    /*? ___________________ slide1 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption h1 {
+        font-size: 60px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption p {
+        width: 80%;
+    }
+
+    /*? ___________________ slide2 ___________________ */
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description .about {
+        width: 75%;
+        margin: auto;
+    }
+
+    /*? ___________________ slide3 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3).active .container .row .box:last-child .item .line {
+        width: 210px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features .row .box .special_item img {
+        max-width: 45px;
+    }
+
+    /* _______________________________________________________ About _____________________________________________ */
+
+    /*? ______________________ part1 ______________________ */
+
+    #About .container .content .row .part1 .item p.h3 {
+        font-size: 25px;
+    }
+
+    #About .container .content .row .part1 .item p {
+        font-size: 16px;
+    }
+
+    /*? ______________________ part2 ______________________ */
+    #About .container .content .row .part2 .item {
+        min-height: 300px;
+    }
+
+    /* _______________________________________________________ Testimonials ___________________________________________ */
+
+    #Testimonials .banner .caption .container h2 {
+        font-size: 28px;
+    }
+
+    #Testimonials .banner .caption .container p {
+        font-size: 16px;
+    }
+
+    /* _______________________________________________________ Menu ____________________________________________ */
+
+    /*? __________________________ part2 __________________________ */
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption h4 {
+        font-size: 25px;
+    }
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3 .info_title {
+        font-size: 16px;
+    }
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3:nth-of-type(1) .info_value,
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row:nth-of-type(3) .info_value {
+        font-size: 16px;
+    }
+
+    /* _______________________________________________________ Footer _____________________________________________  */
+    footer {
+        font-size: 16px;
+    }
+
+}
+
+
+/*! ___________________________________________________________ 850 _______________________________________________________________________________ **/
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    /* _______________________________________________________ global ____________________________________________ */
+
+    .title .divider_line::before,
+    .title .divider_line::after {
+        width: 70px;
+        height: 2.5px;
+    }
+
+    .title .divider_line img {
+        width: 75px;
+    }
+
+    /* _______________________________________________________ Header ____________________________________________ */
+
+    /* ________ Carousel ________  */
+
+    /*? ___________________ slide1 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption h1 {
+        font-size: 70px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(1) .container .carousel-caption p {
+        width: 60%;
+    }
+
+    /*? ___________________ slide2 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .image img {
+        max-width: 170px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description .about {
+        width: 100%;
+    }
+
+    /*? ___________________ slide3 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:first-child .item img {
+        width: 100%;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3).active .container .row .box:last-child .item .line {
+        width: 130px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features .row .box .special_item img {
+        max-width: 40px;
+    }
+
+    /*? ____________________ pre & next _____________________ */
+
+    header #HeaderCarousel .carousel-control-prev,
+    header #HeaderCarousel .carousel-control-next {
+        width: 50px;
+        height: 50px;
+    }
+
+    header #HeaderCarousel .carousel-control-prev {
+        right: 130px;
+    }
+
+    header #HeaderCarousel .carousel-control-next {
+        right: 50px;
+    }
+
+    header #HeaderCarousel .carousel-control-prev i,
+    header #HeaderCarousel .carousel-control-next i {
+        font-size: 16px;
+    }
+
+    /* _______________________________________________________ About _____________________________________________ */
+
+    /*? ______________________ part1 ______________________ */
+    #About .container .content .row .part1 .item p.h3 {
+        font-size: 20px;
+    }
+
+    #About .container .content .row .part1 .item p {
+        font-size: 12px;
+    }
+
+    #About .container .content .row .part1 .item .button {
+        margin-bottom: 0px;
+    }
+
+    /*? ______________________ part2 ______________________ */
+    #About .container .content .row .part2 .item {
+        min-height: 250px;
+    }
+
+    #About .container .content .row .part2 .item h3 {
+        width: 50%;
+    }
+
+    /* _______________________________________________________ Testimonials ___________________________________________ */
+
+    #Testimonials .banner .caption .container h2 {
+        font-size: 32px;
+    }
+
+    #Testimonials .banner .caption .container .line {
+        width: 180px;
+    }
+
+    #Testimonials .banner .caption .container>p {
+        width: 90%;
+    }
+
+    #Testimonials .banner .caption .container .features .box .item img {
+        width: 45px;
+    }
+
+    #Testimonials .banner .caption .container .features .box .item p {
+        font-size: 18px;
+    }
+
+    #Testimonials .banner .caption .container .features .box .item h4 {
+        font-size: 16px;
+    }
+
+    /* _______________________________________________________ Team ______________________________________________ */
+    #Team .container .content .row .box .item .caption p {
+        font-size: 17px;
+    }
+
+
+}
+
+
+/*! __________________________________________________________ 1050 _______________________________________________________________________________ **/
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    /* _______________________________________________________ global ____________________________________________ */
+
+    .title .divider_line::before,
+    .title .divider_line::after {
+        width: 90px;
+    }
+
+    /* _______________________________________________________ Header ____________________________________________ */
+
+    /* ________ Carousel ________  */
+    /* ___________________ slide2 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .image img {
+        max-width: 230px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2).active .container .row .box:first-child .item .image img {
+        bottom: -30px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .description p.h1 {
+        font-size: 60px;
+    }
+
+    /* ___________________ slide3 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:first-child .item img {
+        width: 80%;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3).active .container .row .box:last-child .item .line {
+        width: 185px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features {
+        width: 75%;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features .row .box .special_item img {
+        max-width: 35px;
+    }
+
+    /* _______________________________________________________ Testimonials ___________________________________________ */
+
+    #Testimonials .banner .caption .container .line {
+        width: 220px;
+    }
+
+    #Testimonials .banner .caption .container .features .box .item img {
+        width: 50px;
+    }
+
+    #Testimonials .banner .caption .container .features .box .item p {
+        font-size: 20px;
+    }
+
+    #Testimonials .banner .caption .container .features .box .item h4 {
+        font-size: 20px;
+    }
+
+    /* _______________________________________________________ Menu ____________________________________________ */
+
+    /*? __________________________ part1 __________________________ */
+    #Menu .container-fluid .content .row .part1 .nav {
+        margin: initial;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link {
+        padding: 35px 0;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link::before {
+        border-right-color: #fff;
+        border-bottom-color: transparent;
+
+        right: -20px;
+        bottom: auto;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item .nav-link.active::before {
+        right: 0;
+        bottom: auto;
+    }
+
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item:first-child .nav-link {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #Menu .container-fluid .content .row .part1 .nav .nav-item:last-child .nav-link {
+        border-radius: 0 0 5px 5px;
+    }
+
+    /*? __________________________ part2 __________________________ */
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3 .info_title {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3:nth-of-type(1) .info_value,
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row:nth-of-type(3) .info_value {
+        font-size: 15px;
+    }
+
+    /* _______________________________________________________ Team ______________________________________________ */
+    #Team .container .content .row .box .item .caption p {
+        font-size: 22px;
+    }
+}
+
+
+/*! __________________________________________________________ 1250 _______________________________________________________________________________ **/
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    /* _______________________________________________________ global ____________________________________________ */
+    .title .divider_line::before,
+    .title .divider_line::after {
+        width: 100px;
+        height: 1px;
+    }
+
+    /* _______________________________________________________ Header ____________________________________________ */
+    /* ________ Carousel ________  */
+    /*? ___________________ slide3 ___________________ */
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3).active .container .row .box:last-child .item .line {
+        width: 220px;
+    }
+
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(3) .container .row .box:last-child .item .features .row .box .special_item img {
+        max-width: 40px;
+    }
+
+    /* _______________________________________________________ Testimonials ___________________________________________ */
+
+    #Testimonials .banner .caption .container h2 {
+        font-size: 35px;
+    }
+
+    #Testimonials .banner .caption .container .line {
+        width: 280px;
+    }
+
+    /* _______________________________________________________ Menu ____________________________________________ */
+    /*? __________________________ part2 __________________________ */
+
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3 .info_title,
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row3:nth-of-type(1) .info_value,
+    #Menu .container-fluid .content .row1 .part2 .tab-pane .row2 .box .item .caption .info .row:nth-of-type(3) .info_value {
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+/*! __________________________________________________________ 1350 _______________________________________________________________________________ **/
+@media (min-width: 1300px) and (max-width: 1400px) {
+    /* _______________________________________________________ Header ____________________________________________ */
+
+    /* ________ Carousel ________  */
+    /*? ___________________ slide2 ___________________ */
+    header #HeaderCarousel .carousel-inner .carousel-item:nth-of-type(2) .container .row .box:first-child .item .image img {
+        max-width: 260px;
+    }
+}

@@ -1,0 +1,47 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes up_down {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
+
+@keyframes up_down_go {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateX(200%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(200%);
+    }
+
+}
